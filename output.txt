@@ -1,0 +1,146 @@
+item:Screen Protector, need_repose:True,not_pendingr_equest:True
+storage(Screen Protector):0,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:USB-C Charger, need_repose:True,not_pendingr_equest:True
+storage(USB-C Charger):10,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:iPhone 13, need_repose:True,not_pendingr_equest:True
+storage(iPhone 13):6,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Wireless Earbuds, need_repose:True,not_pendingr_equest:True
+storage(Wireless Earbuds):8,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Smartphone Case, need_repose:True,not_pendingr_equest:True
+storage(Smartphone Case):10,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Lightning Cable, need_repose:True,not_pendingr_equest:True
+storage(Lightning Cable):8,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Sony Xperia 1 III, need_repose:True,not_pendingr_equest:True
+storage(Sony Xperia 1 III):18,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Screen Protector, need_repose:True,not_pendingr_equest:True
+storage(Screen Protector):7,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Samsung Galaxy S21, need_repose:True,not_pendingr_equest:True
+storage(Samsung Galaxy S21):17,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:USB-C Charger, need_repose:True,not_pendingr_equest:True
+storage(USB-C Charger):8,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Smartphone Case, need_repose:True,not_pendingr_equest:True
+storage(Smartphone Case):9,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Lightning Cable, need_repose:True,not_pendingr_equest:True
+storage(Lightning Cable):5,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:OnePlus 9 Pro, need_repose:True,not_pendingr_equest:True
+storage(OnePlus 9 Pro):10,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Google Pixel 6, need_repose:True,not_pendingr_equest:True
+storage(Google Pixel 6):8,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Smartphone Case, need_repose:True,not_pendingr_equest:True
+storage(Smartphone Case):6,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Wireless Earbuds, need_repose:True,not_pendingr_equest:True
+storage(Wireless Earbuds):10,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:iPhone 13, need_repose:True,not_pendingr_equest:True
+storage(iPhone 13):13,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:USB-C Charger, need_repose:True,not_pendingr_equest:True
+storage(USB-C Charger):5,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Samsung Galaxy S21, need_repose:True,not_pendingr_equest:True
+storage(Samsung Galaxy S21):15,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Lightning Cable, need_repose:True,not_pendingr_equest:True
+storage(Lightning Cable):8,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Screen Protector, need_repose:True,not_pendingr_equest:True
+storage(Screen Protector):8,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Sony Xperia 1 III, need_repose:True,not_pendingr_equest:True
+storage(Sony Xperia 1 III):19,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Lightning Cable, need_repose:True,not_pendingr_equest:True
+storage(Lightning Cable):4,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Wireless Earbuds, need_repose:True,not_pendingr_equest:True
+storage(Wireless Earbuds):5,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Smartphone Case, need_repose:True,not_pendingr_equest:True
+storage(Smartphone Case):10,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:USB-C Charger, need_repose:True,not_pendingr_equest:True
+storage(USB-C Charger):8,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:iPhone 13, need_repose:True,not_pendingr_equest:True
+storage(iPhone 13):14,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Google Pixel 6, need_repose:True,not_pendingr_equest:True
+storage(Google Pixel 6):20,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Screen Protector, need_repose:True,not_pendingr_equest:True
+storage(Screen Protector):10,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Wireless Earbuds, need_repose:True,not_pendingr_equest:True
+storage(Wireless Earbuds):10,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Smartphone Case, need_repose:True,not_pendingr_equest:True
+storage(Smartphone Case):2,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Lightning Cable, need_repose:True,not_pendingr_equest:True
+storage(Lightning Cable):4,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Samsung Galaxy S21, need_repose:True,not_pendingr_equest:True
+storage(Samsung Galaxy S21):20,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Screen Protector, need_repose:True,not_pendingr_equest:True
+storage(Screen Protector):7,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:USB-C Charger, need_repose:True,not_pendingr_equest:True
+storage(USB-C Charger):8,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:OnePlus 9 Pro, need_repose:True,not_pendingr_equest:True
+storage(OnePlus 9 Pro):14,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Wireless Earbuds, need_repose:True,not_pendingr_equest:True
+storage(Wireless Earbuds):3,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:iPhone 13, need_repose:True,not_pendingr_equest:True
+storage(iPhone 13):14,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Smartphone Case, need_repose:True,not_pendingr_equest:True
+storage(Smartphone Case):7,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Screen Protector, need_repose:True,not_pendingr_equest:True
+storage(Screen Protector):7,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Google Pixel 6, need_repose:True,not_pendingr_equest:True
+storage(Google Pixel 6):17,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:USB-C Charger, need_repose:True,not_pendingr_equest:True
+storage(USB-C Charger):10,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Lightning Cable, need_repose:True,not_pendingr_equest:True
+storage(Lightning Cable):1,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Wireless Earbuds, need_repose:True,not_pendingr_equest:True
+storage(Wireless Earbuds):10,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Sony Xperia 1 III, need_repose:True,not_pendingr_equest:True
+storage(Sony Xperia 1 III):20,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:iPhone 13, need_repose:True,not_pendingr_equest:True
+storage(iPhone 13):18,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Smartphone Case, need_repose:True,not_pendingr_equest:True
+storage(Smartphone Case):3,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Wireless Earbuds, need_repose:True,not_pendingr_equest:True
+storage(Wireless Earbuds):8,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Screen Protector, need_repose:True,not_pendingr_equest:True
+storage(Screen Protector):8,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:USB-C Charger, need_repose:True,not_pendingr_equest:True
+storage(USB-C Charger):7,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Lightning Cable, need_repose:True,not_pendingr_equest:True
+storage(Lightning Cable):6,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:OnePlus 9 Pro, need_repose:True,not_pendingr_equest:True
+storage(OnePlus 9 Pro):12,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Samsung Galaxy S21, need_repose:True,not_pendingr_equest:True
+storage(Samsung Galaxy S21):18,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:USB-C Charger, need_repose:True,not_pendingr_equest:True
+storage(USB-C Charger):10,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Wireless Earbuds, need_repose:True,not_pendingr_equest:True
+storage(Wireless Earbuds):5,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Smartphone Case, need_repose:True,not_pendingr_equest:True
+storage(Smartphone Case):6,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Sony Xperia 1 III, need_repose:True,not_pendingr_equest:True
+storage(Sony Xperia 1 III):11,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Smartphone Case, need_repose:True,not_pendingr_equest:True
+storage(Smartphone Case):9,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Lightning Cable, need_repose:True,not_pendingr_equest:True
+storage(Lightning Cable):9,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:iPhone 13, need_repose:True,not_pendingr_equest:True
+storage(iPhone 13):20,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Wireless Earbuds, need_repose:True,not_pendingr_equest:True
+storage(Wireless Earbuds):5,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Screen Protector, need_repose:True,not_pendingr_equest:True
+storage(Screen Protector):0,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:USB-C Charger, need_repose:True,not_pendingr_equest:True
+storage(USB-C Charger):9,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:OnePlus 9 Pro, need_repose:True,not_pendingr_equest:True
+storage(OnePlus 9 Pro):18,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Google Pixel 6, need_repose:True,not_pendingr_equest:True
+storage(Google Pixel 6):15,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Smartphone Case, need_repose:True,not_pendingr_equest:True
+storage(Smartphone Case):2,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Screen Protector, need_repose:True,not_pendingr_equest:True
+storage(Screen Protector):5,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:USB-C Charger, need_repose:True,not_pendingr_equest:True
+storage(USB-C Charger):7,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Sony Xperia 1 III, need_repose:True,not_pendingr_equest:True
+storage(Sony Xperia 1 III):16,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Samsung Galaxy S21, need_repose:True,not_pendingr_equest:True
+storage(Samsung Galaxy S21):19,reorder_level:20,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Screen Protector, need_repose:True,not_pendingr_equest:True
+storage(Screen Protector):9,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Wireless Earbuds, need_repose:True,not_pendingr_equest:True
+storage(Wireless Earbuds):5,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}
+item:Lightning Cable, need_repose:True,not_pendingr_equest:True
+storage(Lightning Cable):10,reorder_level:10,target_level:{'iPhone 13': 100, 'Samsung Galaxy S21': 100, 'Google Pixel 6': 100, 'OnePlus 9 Pro': 100, 'Sony Xperia 1 III': 100, 'USB-C Charger': 50, 'Lightning Cable': 50, 'Wireless Earbuds': 50, 'Smartphone Case': 50, 'Screen Protector': 50}

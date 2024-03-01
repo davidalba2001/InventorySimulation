@@ -1,0 +1,11 @@
+Provider,Product,Cost,Target Level,Reorder Level
+Mobile Technology Provider,iPhone 13,699,100,20
+Mobile Technology Provider,Samsung Galaxy S21,799,100,20
+Mobile Technology Provider,Google Pixel 6,599,100,20
+Mobile Technology Provider,OnePlus 9 Pro,699,100,20
+Mobile Technology Provider,Sony Xperia 1 III,799,100,20
+Mobile Technology Provider,USB-C Charger,20,50,10
+Mobile Technology Provider,Lightning Cable,10,50,10
+Mobile Technology Provider,Wireless Earbuds,30,50,10
+Mobile Technology Provider,Smartphone Case,15,50,10
+Mobile Technology Provider,Screen Protector,10,50,10

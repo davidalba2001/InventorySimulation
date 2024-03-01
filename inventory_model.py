@@ -1,46 +1,110 @@
-import numpy as np  # Importa la librería numpy bajo el alias np
+from customer import Customers
+from request import Request
+from store import Store
+from priority_queue import PriorityQueue
+from suppliers import Suppliers
+from enum import Enum
+import sys
+import numpy as np
 
-# Parámetros del modelo
-r = 10  # Precio de venta por unidad
-S = 100  # Umbral máximo de inventario
-s = 20  # Umbral mínimo de inventario
-h = 0.1  # Costo de almacenaje por unidad de tiempo
-L = 2  # Tiempo de demora de reposición
-T = 100  # Tiempo total de simulación
+"""
+Si en evento es un recive customer la cola tendra dentro 
+(event,n_event,wait),time
+Si en evento es un anttend customer la cola tendra dentro 
+(event,n_event,wait),time
+Si en evento es un manage request la cola tendra dentro 
+(event,n_event,request),time
 
-# Inicialización de variables
-t = 0  # Tiempo general
-tA = np.random.exponential(1)  # Tiempo de arribo de cliente, distribución exponencial con media 1
-tM = float('inf')  # Tiempo de arribo de reposición, inicialmente infinito
-C = H = R = P = y = 0  # Inicialización de contadores y acumuladores
-x = 50  # Cantidad inicial en almacén
+"""
 
-# Simulación basada en eventos discretos
-while min(tA, tM) <= T:  # Mientras alguno de los tiempos de arribo sea menor o igual al tiempo total
-    if tA <= tM:  # Si el tiempo de arribo de cliente es menor o igual al de reposición
-        H += (tA - t) * x * h  # Actualiza el costo de almacbn/enaje considerando el tiempo transcurrido
-        t = tA  # Actualiza el tiempo general
-        X = np.random.randint(1, 30)  # Genera la demanda de clientes
-        w = min(x, X)  # Calcula la cantidad vendida, tomando el mínimo entre lo disponible y la demanda
-        R += w * r  # Actualiza los ingresos
-        P += (X - w) * r  # Actualiza las pérdidas por falta de stock
-        x -= w  # Actualiza la cantidad en inventario
-        if x < s and y == 0:  # Si el inventario está por debajo del umbral mínimo y no hay reposición en curso
-            y = S - x  # Calcula la cantidad a reponer
-            tM = t + L  # Establece el tiempo de arribo de reposición
-        tA += np.random.exponential(1)  # Genera el próximo tiempo de arribo de cliente
-    else:  # Si el tiempo de arribo de reposición es menor al de cliente
-        H += (tM - t) * x * h  # Actualiza el costo de almacenaje considerando el tiempo transcurrido
-        t = tM  # Actualiza el tiempo general
-        C += 10  # Actualiza el costo de ordenar y unidades
-        x += y  # Incrementa la cantidad en inventario
-        y = 0  # Reinicia la cantidad a reponer
-        tM = float('inf')  # Indica que no hay reposición en curso
+class TypeEvent(Enum):
+    ReciveCustomer = 1
+    ManageRequest = 2
 
-# Calcular ganancia total
-ganancia_total = R - H - C  # Ingresos menos costos totales (ingresos - costos de almacenaje - costos de reposición)
-perdida_por_falta_de_stock = P  # Pérdidas por falta de stock
+class SimulateInventory_Model:
+   
+    def __init__(self,simulator_store:Store,simulator_suppliers:Suppliers,end_time = 1) -> None:
+        self.customers = Customers()
+        self.store = simulator_store
+        self.suppliers = simulator_suppliers
+        self.queue = PriorityQueue() 
+        self.end_time = end_time*24*60
+        self.current_time = 0
 
-# Resultados
-print("Ganancia total:", ganancia_total)  # Imprime la ganancia total
-print("Pérdida por falta de stock:", perdida_por_falta_de_stock)  # Imprime la pérdida por falta de stock
+    
+
+    def simulate_events_store(self):
+        stdout_original = sys.stdout
+    
+        with open('output.txt', 'w') as f:
+            sys.stdout = f
+            while(self.store.isOpen):
+
+                if(self.current_time % (24 * 60) == 0):
+                    self.store.charge_storage_fee()
+
+                pending_request,request = self.store.manage_requests()
+
+                # Recive customer if store is open and queue is empty 
+                if(self.current_time < self.end_time and self.queue.counter == 0):
+                    arrival_time,wait_time = self.customers.event_arrival()
+                    self.queue.add_item((TypeEvent.ReciveCustomer,self.customers.count_arrivals,wait_time),self.current_time,arrival_time)
+                # Close store and repose items
+                elif(self.queue.counter == 0):
+                     self.store.isOpen = False
+                     if(pending_request):
+                        self.store.update_storage(request=request)
+                     break
+                 
+                #Create event for repose storage 
+                if(pending_request):
+                    
+                    #Count the number of requests
+                    self.suppliers.countRequest +=1
+                    #Create event ManageRequest
+                    delivery_time = self.suppliers.generate_delivery_time()
+                    self.queue.add_item((TypeEvent.ManageRequest,self.suppliers.countRequest,request),self.current_time,delivery_time) 
+
+                # Extract event in top the queue
+                start_time_event,(type_event,n_event,wait_time_or_request)= self.queue.get_next_item()
+
+
+                if(TypeEvent.ReciveCustomer == type_event):
+                    # if the type event is ReciveCustomer then wait_time_or_request is wait_time not a request
+                    wait_time =  wait_time_or_request
+                    # generate a random time that simulates how long it takes to serve a customer
+                    spend_attend_time = self.store.spend_attend_time()
+                    # If the current time is before the time of the new event, move the time to the time of the new event.
+                    self.current_time = max(self.current_time ,start_time_event)
+                    
+                    
+                    attend_event_time  = self.current_time + spend_attend_time
+
+                    if(attend_event_time - start_time_event <= wait_time_or_request):
+                        
+                        order = self.customers.generate_order(self.store.storage.keys())
+                        request = Request(order,self.store.items_prices)
+
+                        self.current_time = attend_event_time
+
+                        self.store.attend_customers(request,1.10)
+                        
+                        # If the simulation time has not ended, you will receive a new client
+                        if(self.current_time < self.end_time):
+                            arrival_time,wait_time = self.customers.event_arrival()
+                            self.queue.add_item((TypeEvent.ReciveCustomer,self.customers.count_arrivals,wait_time),self.current_time,arrival_time)                        
+                    else:
+                        # unattended increases if a customer cannot be attended to on time
+                        self.store.unattended +=1
+                        
+                if(TypeEvent.ManageRequest == type_event):
+                    # move in time line  
+                    self.current_time = start_time_event
+                    # if the type event is ManageRequest then wait_time_or_request is wait_time not a request
+                    request = wait_time_or_request
+                    # update state store 
+                    self.store.update_storage(request=request)
+
+            sys.stdout = stdout_original
+
+   
